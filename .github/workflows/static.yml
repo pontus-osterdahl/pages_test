@@ -40,10 +40,12 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/download-artifact@master
-      with:
-        name: page
-        path: .
+      - name: download-artifact
+        uses: actions/download-artifact@master
+        with:
+          name: page
+          path: .
+      - name: setup pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
