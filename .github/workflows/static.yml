@@ -26,11 +26,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - run: touch build.txt
+    - run: echo '<!doctype html><title>Index</title>' > index.html
     - uses: actions/upload-artifact@master
       with:
         name: page
-        path: build.txt
+        path: index.html
         if-no-files-found: error
 
  
