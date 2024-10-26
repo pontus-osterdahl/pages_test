@@ -30,8 +30,8 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: 18
-    - run: npm ci
-    - run: npm test
+    - run: npm install saxon-js
+    - run: npm install xslt3
     - run: echo '<!doctype html><title>Index</title>' > index.html
     - uses: actions/upload-artifact@master
       with:
