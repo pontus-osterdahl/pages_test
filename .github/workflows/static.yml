@@ -38,10 +38,6 @@ jobs:
         name: page
         path: index.html
         if-no-files-found: error
-   
-  
-
- 
   deploy:
     environment:
       name: github-pages
