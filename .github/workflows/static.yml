@@ -32,7 +32,7 @@ jobs:
         node-version: 18
     - run: npm install saxon-js
     - run: npm install xslt3
-    - run: echo '<!doctype html><title>Index</title>' > index.html
+    - run: npm xslt3 -xsl:c:transform.xsl -s:c:hej.xml -o:c:index.html
     - uses: actions/upload-artifact@v4
       with:
         name: page
