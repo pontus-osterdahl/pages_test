@@ -33,7 +33,7 @@ jobs:
     - run: npm install saxon-js
     - run: npm install xslt3
     - run: echo '<!doctype html><title>Index</title>' > index.html
-    - uses: actions/upload-artifact@master
+    - uses: actions/upload-artifact@4
       with:
         name: page
         path: index.html
@@ -45,7 +45,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: download-artifact
-        uses: actions/download-artifact@master
+        uses: actions/download-artifact@4
         with:
           name: page
           path: .
