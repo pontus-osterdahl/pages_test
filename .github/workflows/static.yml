@@ -32,7 +32,7 @@ jobs:
         node-version: 18
     - run: npm install -g saxon-js
     - run: npm install -g xslt3
-    - run: xslt3 -xsl:transform.xsl -s:hej.xml -o:index.html
+    - run: xslt3 -xsl:transform.xsl -s:data/Codd/testcod.xml -o:index.html
     - uses: actions/upload-artifact@v4
       with:
         name: page
