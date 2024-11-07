@@ -1,0 +1,117 @@
+head {
+  background-color: #002F5F;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.titleinformation * {
+  color: white;
+}
+
+body {
+  background-color: #9BB2CE;
+}
+.hide {
+    display: none;
+  }
+  
+  .note:hover + .hide {
+    display: block;
+    color: red;
+  }
+
+  li {
+    display:inline;
+  }
+
+  .note {
+    color: red;
+  }
+
+  .diplomatic {
+    display:none;
+    width: 350px;
+    vertical-align: text-top;
+  }
+
+  .transcription {
+    display:inline-block;
+    width: 350px;
+    vertical-align: text-top;
+  }
+
+  .popup .popuptext {
+    visibility: hidden;
+    /**width: 300px;*/
+    background-color: #555;
+    color: #fff;
+    margin: auto;
+    /**text-align: center;*/
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+
+  .popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .popup .show {
+    visibility: visible;
+  }
+
+.editionWrapper {
+  max-width: 800px;
+  display: inline;
+}
+
+.headerBlock .innerTextBlock {
+  display: block;
+}
+
+.headerBlock {
+  font-weight: bold;
+  padding: 8px 0;
+}
+
+.innerTextBlock {
+  display: block;
+
+}
+
+  .textBlock {
+    display: block;
+    background-color: #ACDEE6;
+  }
+
+  .titleinformation {
+    background-color: #002F5F;
+  }
+
+  lemma {
+    font-weight: bold;
+  }
