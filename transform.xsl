@@ -6,7 +6,7 @@
 			<head>
 				<link rel="stylesheet" href="mystyle.css"></link>
 				<link rel="import" href="import.html"/>
-				<script src="jquery-3.7.1.min.js"></script>
+				<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
 				<script src="utils.js"></script>
 			</head>
 			<body>
