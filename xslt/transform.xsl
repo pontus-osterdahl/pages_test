@@ -14,8 +14,8 @@
 				<div class="main_b">
 				<div class="title">
 				<xsl:apply-templates select="//tei:titleStmt/tei:title" mode="header"/>
-				<input id="transcription-checkbox" type="checkbox">Diplomatic</input>
-				<input id="diplomatic-checkbox" type="checkbox">Transcription</input>
+				<!--<input id="transcription-checkbox" type="checkbox">Diplomatic</input>
+				<input id="diplomatic-checkbox" type="checkbox">Transcription</input>-->
 				</div>
 				<xsl:apply-templates select="node()|@*"/>
 			    </div>
@@ -114,13 +114,13 @@
 		</xsl:if>-->
 		<xsl:apply-templates select="tei:reg"/>
 	</xsl:template>
-	<xsl:template match="tei:orig">
+	<!--<xsl:template match="tei:orig">
 		<div class="editionWrapper">
 			<div class="transcription">
 				<xsl:value-of select="normalize-space()"/>
 			</div>
 		</div>
-	</xsl:template>
+	</xsl:template>-->
 	<xsl:template match="tei:reg">
 		<div class="editionWrapper">
 			<div class="diplomatic">
