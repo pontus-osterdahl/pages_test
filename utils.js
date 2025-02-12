@@ -1,14 +1,14 @@
 $(function(){
-    $(".dummyHeader").
-    append("<h1>GNOMIKA</h1><div class=\"titleinformation\"><nav><ul><li><a href=\"introduction.html\">Introduction</a></li> <li><a href=\"mss_list.html\">List of manuscripts</a></li> <li><a href=\"collections.html\">Collections</a></li> <li><a href=\"integated_editions.html\">Integrated editions</a></li></ul></nav></div>"); 
+    $("<h1>GNOMIKA</h1><div class=\"titleinformation\"><nav><ul><li><a href=\"introduction.html\">Introduction</a></li> <li><a href=\"mss_list.html\">List of manuscripts</a></li> <li><a href=\"collections.html\">Collections</a></li> <li><a href=\"integated_editions.html\">Integrated editions</a></li></ul></nav></div>").
+    prependTo(".dummyHeader");
   });
 
   document.addEventListener("DOMContentLoaded", function() {
     let currentDate = document.querySelector("#currentDayTime");
     // rest of your code goes here
 
-  var diplomaticCheckbox = document.getElementById("diplomatic-checkbox");
-  var transcriptionCheckbox = document.getElementById("transcription-checkbox");
+/**   var diplomaticCheckbox = document.getElementById("diplomatic-checkbox");
+  var transcriptionCheckbox = document.getElementById("transcription-checkbox");*/
   
   var popups = document.getElementsByClassName("innerTextBlock");
   for(i = 0; i < popups.length; i++) {
@@ -24,8 +24,12 @@ $(function(){
           });
   }
 
-  transcriptionCheckbox.checked = true;
+
+  /**transcriptionCheckbox.checked = true;
   
+
+
+
   diplomaticCheckbox.addEventListener('change', function() {
       
       const cols = document.getElementsByClassName("diplomatic");
@@ -39,16 +43,21 @@ $(function(){
           for(i = 0; i < cols.length; i++) {
               cols[i].style.display = "none";
           }
-      }    
-  });
+      }
+      
+  });*/
   
   window.addEventListener("load", (event) => {
       console.log("page is fully loaded");
     });
   
-  transcriptionCheckbox.addEventListener('change', function() {
+  /**transcriptionCheckbox.addEventListener('change', function() {
+  
+      //const elements = document.getElementsByClassName("transcription");
+      
       var cols = document.getElementsByClassName("transcription");
       
+  
       if(this.checked) {
           for(i = 0; i < cols.length; i++) {
               cols[i].style.display = "inline-block";
@@ -59,7 +68,8 @@ $(function(){
               cols[i].style.display = "none";
           }
       }
-  });
+      
+  });*/
   
   function myFunction(element) {
       var tex = element.nextSibling.innerHTML;
