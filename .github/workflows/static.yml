@@ -38,7 +38,7 @@ jobs:
     - run:  |
             for file in data/Codd/*.xml 
             do 
-              echo <file>$file</file> >> doc-list.xml
+              echo "<file>$file</file>" >> doc-list.xml
             done
             echo "</files>" >> doc-list.xml 
 #    - run: xslt3 -xsl:xslt/transform_all_ms.xsl -s:hej.xml -o:index.html
