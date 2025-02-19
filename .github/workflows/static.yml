@@ -40,7 +40,8 @@ jobs:
             do 
               echo "<file>$file</file>" >> doc-list.xml
             done
-            echo "</files>" >> doc-list.xml 
+            echo "</files>" >> doc-list.xml
+    - run: cat doc-list.xml
 #    - run: xslt3 -xsl:xslt/transform_all_ms.xsl -s:hej.xml -o:index.html
 #    - uses: actions/upload-artifact@v4
 #      with:
