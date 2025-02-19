@@ -33,12 +33,14 @@ jobs:
     - run: npm install -g saxon-js
     - run: npm install -g xslt3
     # for each file in directory run command below
+    - run: touch doc-list.xml 
+    - run: echo "<files>" >> doc-list.xml
     - run:  |
             for file in data/Codd/*.xml 
             do 
-              echo $file
+              echo <file>$file</file> >> doc-list.xml
             done
-
+            echo "</files>" >> doc-list.xml 
 #    - run: xslt3 -xsl:xslt/transform_all_ms.xsl -s:hej.xml -o:index.html
 #    - uses: actions/upload-artifact@v4
 #      with:
