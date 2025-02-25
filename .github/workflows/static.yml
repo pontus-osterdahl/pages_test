@@ -43,6 +43,7 @@ jobs:
             echo "</files>" >> xslt/doc-list.xml
     - run: cat xslt/doc-list.xml
     - run: xslt3 -xsl:xslt/transform_all_ms.xsl -s:hej.xml -o:index.html
+    - run: cat index.html
     - uses: actions/upload-artifact@v4
       with:
         name: page
