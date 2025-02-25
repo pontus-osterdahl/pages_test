@@ -6,13 +6,19 @@
 
 <xsl:template name="parse_ms">
    <xsl:param name="file"/>
+
+   <xsl:copy-of select="$file/TEI/node()"/>
+
+</xsl:template>
+<!--<xsl:template name="parse_ms">
+   <xsl:param name="file"/>
    <div class="main_b">
 				<div class="title">
-				<xsl:apply-templates select="//tei:titleStmt/tei:title" mode="header"/>
+				<xsl:apply-templates select="$file//tei:titleStmt/tei:title" mode="header"/>
 				</div>
 				<xsl:apply-templates select="node()|@*"/>
 			    </div>
-</xsl:template>
+</xsl:template>-->
 
 	<xsl:template match="/">
 		<html>
@@ -25,6 +31,8 @@
 			<body>
 				<div class="dummyHeader">
 				    <xsl:for-each select="$file-names">
+
+						<xsl:copy-of select="document(document('doc-list.xml')//file/@src)/*/node()"/>
 					    <xsl:call-template name="parse_ms">									
                             <xsl:with-param name="file" select = "." />
                         </xsl:call-template>
@@ -192,55 +200,3 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		
-		
-		
-		
-		
-		
-		
-
-	</xsl:template>
-</xsl:stylesheet>
