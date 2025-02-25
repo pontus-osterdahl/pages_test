@@ -42,31 +42,31 @@ jobs:
             done
             echo "</files>" >> doc-list.xml
     - run: cat doc-list.xml
-#    - run: xslt3 -xsl:xslt/transform_all_ms.xsl -s:hej.xml -o:index.html
-#    - uses: actions/upload-artifact@v4
-#      with:
-#        name: page
-#        path: .
-#        if-no-files-found: error
-#  deploy:
-#    needs: build
-#    environment:
-#      name: github-pages
-#      url: ${{ steps.deployment.outputs.page_url }}
-#    runs-on: ubuntu-latest
-#    steps:
-##      - name: download-artifact
-#        uses: actions/download-artifact@v4
-#        with:
-#          name: page
-#          path: .
-#      - name: setup pages
-#        uses: actions/configure-pages@v5
-#      - name: Upload artifact
-#        uses: actions/upload-pages-artifact@v3
-#        with:
-#          # Upload entire repository
-#          path: '.'
-#      - name: Deploy to GitHub Pages
-#        id: deployment
-#        uses: actions/deploy-pages@v
+    - run: xslt3 -xsl:xslt/transform_all_ms.xsl -s:hej.xml -o:index.html
+    - uses: actions/upload-artifact@v4
+      with:
+        name: page
+        path: .
+        if-no-files-found: error
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: download-artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: page
+          path: .
+      - name: setup pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload entire repository
+          path: '.'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v
