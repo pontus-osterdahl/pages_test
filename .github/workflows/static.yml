@@ -34,7 +34,7 @@ jobs:
     - run: npm install -g xslt3
     # for each file in directory run command below
     - run: touch doc-list.xml 
-    - run: echo "<files>" >> doc-list.xml
+    - run: echo "<files>" >> xslt/doc-list.xml
     - run:  |
             for file in data/Codd/*.xml 
             do 
