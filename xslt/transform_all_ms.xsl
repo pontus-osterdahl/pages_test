@@ -189,7 +189,7 @@
 		<xsl:variable name="manuscript_file" select="substring-before($text, '.')"/>
         <xsl:variable name="local_id" select="substring-after($text, ':')"/>
         <xsl:value-of select="concat(concat($manuscript_file, '.html'), concat('#',$local_id))"/>
-
+	</xsl:stylesheet>
 
 
 
