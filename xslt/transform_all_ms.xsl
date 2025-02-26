@@ -10,19 +10,19 @@
 </xsl:template>
 
 	<xsl:template match="/">
-		<html>
-			<head>
+		<xml>
+			<!--<head>
 				<link rel="stylesheet" href="mystyle.css"></link>
 				<link rel="import" href="import.html"/>
 				<script src="jquery-3.7.1.min.js"></script>
 				<script src="utils.js"></script>
-			</head>
+			</head>-->
 			<body>
 				<div class="dummyHeader">
 						<xsl:copy-of select="document(document('doc-list.xml')//file)//tei:TEI/node()"/>
 				</div>
 			</body>
-		</html>
+		</xml>
 	</xsl:template>
 	</xsl:stylesheet>
 
