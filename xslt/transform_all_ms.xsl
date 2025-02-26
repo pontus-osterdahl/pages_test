@@ -19,7 +19,7 @@
 			</head>
 			<body>
 				<div class="dummyHeader">
-						<xsl:copy-of select="document(document('doc-list.xml')//file)//TEI/node()"/>
+						<xsl:copy-of select="document(document('doc-list.xml')//file)"/>
 				</div>
 			</body>
 		</html>
