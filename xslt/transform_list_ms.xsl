@@ -17,11 +17,18 @@
 				<!--<input id="transcription-checkbox" type="checkbox">Diplomatic</input>
 				<input id="diplomatic-checkbox" type="checkbox">Transcription</input>-->
 				<!--</div>-->
-				<xsl:apply-templates select="node()|@*"/>
+				<!--<xsl:apply-templates select="node()|@*"/>-->
+					<xsl:apply-templates select="//tei:TEI"/>
 			    </div>
 				</div>
 			</body>
 		</html>
+	</xsl:template>
+	<xsl:template match="tei:TEI">
+		<div>
+			Hej
+<xsl:apply-templates select="node()|@*"/>
+		</div>
 	</xsl:template>
 	<xsl:template match="tei:titlePart">
 		<h3>
