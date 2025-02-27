@@ -160,4 +160,5 @@ li a {
   .flex-container {
   display: flex;
   flex-direction: column;
+    max-width: 300px;
 }
