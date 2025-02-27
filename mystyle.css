@@ -139,6 +139,8 @@ li a {
   }
 
   .main_b {
+     display: flex;
+  flex-direction: row;
     background-color: green;
   }
 
@@ -157,5 +159,5 @@ li a {
 
   .flex-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
