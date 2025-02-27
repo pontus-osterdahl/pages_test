@@ -154,3 +154,8 @@ li a {
     font-style: italic;
     background-color: #ACDEE6;
   }
+
+  .flex-container {
+  display: flex;
+  flex-direction: row;
+}
