@@ -4,6 +4,9 @@
     xmlns:saws="http://purl.org/saws/ontology#"
     xmlns:sawsCTS="http://www.ancientwisdoms.ac.uk/cts/urn:cts:">
     <teiHeader>
+        <titleStmt>
+            <title>Codex BU</title>
+        </titleStmt>
     </teiHeader>
     <text n="BU" xml:id="BU.saws01"
         xml:base="BU">
