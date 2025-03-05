@@ -11,6 +11,13 @@
 			</head>
 			<body>
 				<div class="dummyHeader">
+					<div>
+                                            <xsl:for-each select="//tei:TEI">
+                                                <button>
+						    <xsl:value-of select="@xml:id"/>
+						</button>
+					    </xsl:for-each>
+					</div>
 				<div class="main_b">
 <!--				<div class="title">-->
 				<!--<xsl:apply-templates select="//tei:titleStmt/tei:title" mode="header"/>-->
