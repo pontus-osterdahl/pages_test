@@ -18,6 +18,7 @@
 				<input id="diplomatic-checkbox" type="checkbox">Transcription</input>-->
 				<!--</div>-->
 				<!--<xsl:apply-templates select="node()|@*"/>-->
+					
 					<xsl:apply-templates select="//tei:TEI"/>
 			    </div>
 				</div>
@@ -29,6 +30,9 @@
 	
 	<xsl:template match="tei:TEI">
 		<div class="flex-container">
+		<xsl:attribute name="id">
+                    <xsl:value-of select="@xml:id"/>
+		</xsl:attribute>
 <xsl:apply-templates select="node()|@*"/>
 		</div>
 	</xsl:template>
