@@ -24,6 +24,9 @@
 			</body>
 		</html>
 	</xsl:template>
+
+	<xsl:template match="tei:TEI/@*"/>
+	
 	<xsl:template match="tei:TEI">
 		<div class="flex-container">
 <xsl:apply-templates select="node()|@*"/>
