@@ -14,7 +14,10 @@
 					<div>
                                             <xsl:for-each select="//tei:TEI">
                                                 <button>
-						    <xsl:value-of select="@xml:id"/>
+						    <xsl:attribute name="value">
+						        <xsl:value-of select="@xml:id"/>
+						    </xsl:attribute>
+							<xsl:value-of select="//tei:titleStmt/tei:title"/>
 						</button>
 					    </xsl:for-each>
 					</div>
