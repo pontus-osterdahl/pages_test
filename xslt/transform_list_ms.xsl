@@ -15,7 +15,7 @@
                                             <xsl:for-each select="//tei:TEI">
                                                 <button>
 						    <xsl:attribute name="onclick">
-						        <xsl:value-of select="concat('console.log(',@xml:id,')')"/>
+						        <xsl:value-of select="concat('console.log(&quot;',@xml:id,'&quot;)')"/>
 						    </xsl:attribute>
 							<xsl:value-of select=".//tei:titleStmt/tei:title"/>
 						</button>
