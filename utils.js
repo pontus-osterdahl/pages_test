@@ -9,7 +9,18 @@ $(function(){
 
 /**   var diplomaticCheckbox = document.getElementById("diplomatic-checkbox");
   var transcriptionCheckbox = document.getElementById("transcription-checkbox");*/
-  
+
+  var tests = document.getElementsByClassName("togglebutton");
+for(i = 0; i < tests.length; i++) {
+  tests[i].addEventListener('click', function() {
+            console.log(this.className);
+//            const nodes = this.querySelectorAll("span.popuptext");
+//            for(t = 0; nodes.length; t++) {
+//                nodes[t].classList.toggle("show");
+//            }
+}
+}
+      
   var popups = document.getElementsByClassName("innerTextBlock");
   for(i = 0; i < popups.length; i++) {
     console.log("hej");
@@ -113,9 +124,5 @@ $(function(){
       }
   }
 
-  function toggleDisplay(id) {
-    var element = document.getElementById(id);
-    element.classList.toggle("show");
-  }
 
 });
