@@ -15,7 +15,7 @@
                                             <xsl:for-each select="//tei:TEI">
                                                 <button>
 						    <xsl:attribute name="class">
-                                                        <xsl:value-of select="toggleButton"/>
+                                                        <xsl:value-of select="'toggleButton'"/>
 						    </xsl:attribute>
 						    <xsl:attribute name="value">
 						        <xsl:value-of select="@xml:id"/>
