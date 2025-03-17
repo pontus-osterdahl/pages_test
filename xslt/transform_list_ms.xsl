@@ -13,8 +13,12 @@
 				<div class="dummyHeader">
 					<div>
                                             <xsl:for-each select="//tei:TEI">
+						    <xsl:variable name="classname">
+							    <xsl:value-of select="toggleButton"/>
+						    </xsl:variable>
                                                 <button>
-								    <xsl:attribute name="class">toggleButton</xsl:attribute>
+								    <xsl:attribute name="class">
+									    <xsl:value-of select=normalize-space($toggleButton)/></xsl:attribute>
 						    <xsl:attribute name="value">
 						        <xsl:value-of select="@xml:id"/>
 						    </xsl:attribute>
