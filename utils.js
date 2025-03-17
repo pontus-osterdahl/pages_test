@@ -10,7 +10,7 @@ $(function(){
 /**   var diplomaticCheckbox = document.getElementById("diplomatic-checkbox");
   var transcriptionCheckbox = document.getElementById("transcription-checkbox");*/
 
-  var tests = document.getElementsByClassName("togglebutton");
+  var tests = document.getElementsByClassName("toggleButton");
 for(i = 0; i < tests.length; i++) {
     console.log(i);
   tests[i].addEventListener('click', function() {
