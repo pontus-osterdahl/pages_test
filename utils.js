@@ -12,6 +12,7 @@ $(function(){
 
   var tests = document.getElementsByClassName("togglebutton");
 for(i = 0; i < tests.length; i++) {
+    console.log(i);
   tests[i].addEventListener('click', function() {
             console.log(this.className);
 //            const nodes = this.querySelectorAll("span.popuptext");
