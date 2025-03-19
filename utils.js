@@ -18,7 +18,7 @@ for(i = 0; i < tests.length; i++) {
             console.log(this.getAttribute('value'));
             var id = this.getAttribute('value');
             const container = document.getElementById(id);
-            container.classlist.toggle('show');
+            container.classList.toggle('show');
       
 //            const nodes = this.querySelectorAll("span.popuptext");
 //            for(t = 0; nodes.length; t++) {
