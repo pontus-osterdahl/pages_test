@@ -15,6 +15,7 @@ for(i = 0; i < tests.length; i++) {
     console.log(i);
   tests[i].addEventListener('click', function() {
             console.log(this.className);
+            console.log(this.getAttribute('value'));
             this.classList.toggle("show");
       
 //            const nodes = this.querySelectorAll("span.popuptext");
