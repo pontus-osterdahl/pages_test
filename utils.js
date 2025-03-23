@@ -13,18 +13,18 @@ $(function(){
   var tests = document.getElementsByClassName("toggleButton");
 for(i = 0; i < tests.length; i++) {
     console.log(i);
-  tests[i].addEventListener('click', function() {
-            console.log(this.className);
-            console.log(this.getAttribute('value'));
-            var id = this.getAttribute('value');
-            const container = document.getElementById(id);
-            container.classList.toggle('show');
+    tests[i].addEventListener('click', function() {
+    console.log(this.className);
+    console.log(this.getAttribute('value'));
+    var id = this.getAttribute('value');
+    const container = document.getElementById(id);
+    //container.classList.toggle('show');
  
-            var x = document.getElementById("myDIV");
-            if (x.style.display === "none") {
-               x.style.display = "flex";
+//    var x = document.getElementById("myDIV");
+    if (container.style.display === "none") {
+    container.style.display = "flex";
             } else {
-            x.style.display = "none";
+            container.style.display = "none";
   }
 } 
       
@@ -38,7 +38,7 @@ for(i = 0; i < tests.length; i++) {
   var popups = document.getElementsByClassName("innerTextBlock");
   for(i = 0; i < popups.length; i++) {
     console.log("hej");
-
+    
           popups[i].addEventListener('click', function() {
             console.log("hej");
             const nodes = this.querySelectorAll("span.popuptext");
