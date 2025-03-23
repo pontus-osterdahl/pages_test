@@ -94,6 +94,11 @@ li a {
     visibility: visible;
   }
 
+.show {
+    visbility: visible;
+}
+
+
 .editionWrapper {
   max-width: 800px;
   display: inline;
