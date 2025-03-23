@@ -19,6 +19,14 @@ for(i = 0; i < tests.length; i++) {
             var id = this.getAttribute('value');
             const container = document.getElementById(id);
             container.classList.toggle('show');
+ 
+            var x = document.getElementById("myDIV");
+            if (x.style.display === "none") {
+               x.style.display = "flex";
+            } else {
+            x.style.display = "none";
+  }
+} 
       
 //            const nodes = this.querySelectorAll("span.popuptext");
 //            for(t = 0; nodes.length; t++) {
