@@ -142,8 +142,9 @@ li a {
 
   .main_b {
      display: flex;
-  flex-direction: row;
-    background-color: green;
+     flex-direction: row;
+     background-color: green;
+     margin: auto;
   }
 
   .dummyHeader{
