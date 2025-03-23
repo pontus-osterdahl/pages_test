@@ -163,6 +163,7 @@ li a {
   }
 
   .flex-container {
+    visibility: hidden;
   display: flex;
   flex-direction: column;
     max-width: 400px;
