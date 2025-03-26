@@ -135,22 +135,16 @@ li a {
   }
 
   .dummyHeader {
-    margin-left: auto;
-    margin-right: auto;
-    width: 961px;
+    margin: auto;
+    text-align: center;
   }
 
   .main_b {
      display: flex;
      flex-direction: row;
-     /*background-color: green;*/
      margin: auto;
   }
 
-  .dummyHeader{
-      margin: auto;
-      text-align: center;
-  }
   body {
     background-image: url("Eustathius.jpg");
   }
@@ -163,5 +157,45 @@ li a {
   .flex-container {
   display: none;
   flex-direction: column;
-    max-width: 400px;
+  flex-shrink: 0;
+  flex-grow: 1;
 }
+
+/** Dropdown stuff from w3schools */
+
+ /* Dropdown Button */
+ .dropbtn {
+  background-color: #002F5F;
+  color: white;
+ /* padding: 16px;
+  font-size: 16px;*/
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  /**position: relative;
+  display: inline-block;*/
+  text-align: left;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
