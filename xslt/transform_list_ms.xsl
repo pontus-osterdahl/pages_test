@@ -11,8 +11,11 @@
 			</head>
 			<body>
 				<div class="dummyHeader">
-					<div>
-                                            <xsl:for-each select="//tei:TEI">
+
+                <div class="dropdown">
+				<button class="dropbtn">Text witnesses</button>
+				<div class="dropdown-content">
+				<xsl:for-each select="//tei:TEI">
                                                 <button>
 								    <xsl:attribute name="class">toggleButton</xsl:attribute>
 						    <xsl:attribute name="value">
@@ -21,7 +24,8 @@
 							<xsl:value-of select=".//tei:titleStmt/tei:title"/>
 						</button>
 					    </xsl:for-each>
-					</div>
+                </div>
+			</div>   
 				<div class="main_b">
 <!--				<div class="title">-->
 				<!--<xsl:apply-templates select="//tei:titleStmt/tei:title" mode="header"/>-->
