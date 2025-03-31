@@ -23,11 +23,6 @@ for(i = 0; i < tests.length; i++) {
     }
 }); 
       
-//            const nodes = this.querySelectorAll("span.popuptext");
-//            for(t = 0; nodes.length; t++) {
-//                nodes[t].classList.toggle("show");
-//            }
-//});
 }
       
   var popups = document.getElementsByClassName("innerTextBlock");
