@@ -1,5 +1,5 @@
 $(function(){
-    $("<h1>GNOMIKA</h1><div class=\"titleinformation\"><nav><ul><li><a href=\"introduction.html\">Introduction</a></li> <li><a href=\"mss_list.html\">Manuscripts</a></li> <li><a href=\"collections.html\">Transcriptions</a></li> <li><a href=\"integated_editions.html\">Edition</a></li><li><a href=\"concordance.html\">Concordance</a></li><li><a href=\"bibliography.html\">Bibliography</a></li><li>Contact</li></ul></nav></div>").
+    $("<h1>GNOMIKA</h1><div class=\"titleinformation\"><nav><ul><li><a href=\"introduction.html\">Introduction</a></li> <li><a href=\"mss_list.html\">Manuscripts</a></li> <li><a href=\"collections.html\">Transcriptions</a></li> <li><a href=\"integated_editions.html\">Edition</a></li><li><a href=\"concordance.html\">Concordance</a></li><li><a href=\"bibliography.html\">Bibliography</a></li><li><a href=\"contact.html\">Contact<a></li></ul></nav></div>").
     prependTo(".dummyHeader");
   });
 
