@@ -1,14 +1,11 @@
 $(function(){
-    $("<h1>GNOMIKA</h1><div class=\"titleinformation\"><nav><ul><li><a href=\"introduction.html\">Introduction</a></li> <li><a href=\"mss_list.html\">Manuscripts</a></li> <li><a href=\"collections.html\">Transcriptions</a></li> <li><a href=\"integated_editions.html\">Edition</a></li><li>Concordance</li><li>Bibliography</li><li>Contact</li></ul></nav></div>").
+    $("<h1>GNOMIKA</h1><div class=\"titleinformation\"><nav><ul><li><a href=\"introduction.html\">Introduction</a></li> <li><a href=\"mss_list.html\">Manuscripts</a></li> <li><a href=\"collections.html\">Transcriptions</a></li> <li><a href=\"integated_editions.html\">Edition</a></li><li><a href=\"concordance.html\">Concordance</a></li><li><a href=\"bibliography.html\">Bibliography</a></li><li>Contact</li></ul></nav></div>").
     prependTo(".dummyHeader");
   });
 
   document.addEventListener("DOMContentLoaded", function() {
     let currentDate = document.querySelector("#currentDayTime");
-    // rest of your code goes here
 
-/**   var diplomaticCheckbox = document.getElementById("diplomatic-checkbox");
-  var transcriptionCheckbox = document.getElementById("transcription-checkbox");*/
 
   var tests = document.getElementsByClassName("toggleButton");
 for(i = 0; i < tests.length; i++) {
@@ -18,14 +15,12 @@ for(i = 0; i < tests.length; i++) {
     console.log(this.getAttribute('value'));
     var id = this.getAttribute('value');
     const container = document.getElementById(id);
-    //container.classList.toggle('show');
- 
-//    var x = document.getElementById("myDIV");
-    if (container.style.display === "none") {
-    container.style.display = "flex";
-            } else {
-            container.style.display = "none";
-  }
+
+    if (container.style.display == "none") {
+        container.style.display = "flex";
+    } else {
+        container.style.display = "none";
+    }
 }); 
       
 //            const nodes = this.querySelectorAll("span.popuptext");
