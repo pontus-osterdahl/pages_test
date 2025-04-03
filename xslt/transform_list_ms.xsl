@@ -102,7 +102,7 @@
 								</xsl:variable>
 <!--								<xsl:for-each select="//tei:relation[@active=$relationId]"> -->
 								
-								<xsl:for-each select="//tei:relation[@ref='saws:isRelatedTo' and @active=$relationId]">
+								<!--<xsl:for-each select="//tei:relation[@ref='saws:isRelatedTo' and @active=$relationId]">
 								    <xsl:variable name="corrected_link">
                                         <xsl:value-of select="@passive"/>
 									</xsl:variable>
@@ -112,7 +112,7 @@
 									<xsl:call-template name="correct_link">									
       <xsl:with-param name="id" select = "@passive" />
     </xsl:call-template></xsl:attribute><xsl:value-of select="@passive"/></xsl:element><br/>
-								</xsl:for-each>
+								</xsl:for-each>-->
 								<!--<xsl:for-each select="//tei:relation[@ref='isBaseOfEdition' and @active=$relationId]">
 								    <xsl:variable name="corrected_link">
                                         <xsl:value-of select="@passive"/>
