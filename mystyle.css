@@ -87,7 +87,7 @@ li a {
   .popup {
     position: relative;
     display: inline-block;
-    cursor: pointer;
+    /**cursor: pointer;*/
   }
 
   .popup .show {
