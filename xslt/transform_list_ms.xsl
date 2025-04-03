@@ -91,36 +91,10 @@
 				<xsl:otherwise>
 					<div class="popup textBlock" onclick="show(this)">
 						<div class="innerTextBlock">
-						<xsl:attribute name="id">
+						    <xsl:attribute name="id">
 							    <xsl:value-of select="$id"/>
 							</xsl:attribute>
 							<xsl:apply-templates/>
-							<span class="popuptext">
-								<h2>Relations</h2>
-								<xsl:variable name="relationId">
-								    <xsl:value-of select="concat('#',$id)"/>
-								</xsl:variable>
-<!--								<xsl:for-each select="//tei:relation[@active=$relationId]"> -->
-								
-								<!--<xsl:for-each select="//tei:relation[@ref='saws:isRelatedTo' and @active=$relationId]">
-								    <xsl:variable name="corrected_link">
-                                        <xsl:value-of select="@passive"/>
-									</xsl:variable>
-								    Is related to 
-									<xsl:element name="a">
-									<xsl:attribute name="href">
-									<xsl:call-template name="correct_link">									
-      <xsl:with-param name="id" select = "@passive" />
-    </xsl:call-template></xsl:attribute><xsl:value-of select="@passive"/></xsl:element><br/>
-								</xsl:for-each>-->
-								<!--<xsl:for-each select="//tei:relation[@ref='isBaseOfEdition' and @active=$relationId]">
-								    <xsl:variable name="corrected_link">
-                                        <xsl:value-of select="@passive"/>
-									</xsl:variable>
-								    Is base of edition <xsl:value-of select="@passive"/>
-									<br/>
-								</xsl:for-each>-->
-							</span>
 						</div>
 					</div>
 				</xsl:otherwise>
@@ -128,27 +102,8 @@
 		</xsl:for-each>
 	</xsl:template>
 	<xsl:template match="tei:choice">
-		<!--<xsl:variable name="transcription">
-			<xsl:value-of select="tei:orig/text()"/>
-		</xsl:variable>-->
-		<!-- <xsl:variable name="diplomatic"><xsl:value-of select="tei:reg/text()"/></xsl:variable> -->
-		<!--<xsl:if test="$transcription">
-			<div class="editionWrapper">
-				<div class="transcription">
-					<xsl:value-of select="tei:orig"/>
-					<xsl:apply-templates select="tei:note"/>
-				</div>
-			</div>
-		</xsl:if>-->
 		<xsl:apply-templates select="tei:reg"/>
 	</xsl:template>
-	<!--<xsl:template match="tei:orig">
-		<div class="editionWrapper">
-			<div class="transcription">
-				<xsl:value-of select="normalize-space()"/>
-			</div>
-		</div>
-	</xsl:template>-->
 	<xsl:template match="tei:reg">
 		<div class="editionWrapper">
 			<div class="diplomatic">
