@@ -44,7 +44,7 @@
 	<xsl:template match="tei:TEI/@*"/>
 	
 	<xsl:template match="tei:TEI">
-		<div class="flex-container">
+		<div class="flex-container display-none">
 		<xsl:attribute name="id">
                     <xsl:value-of select="@xml:id"/>
 		</xsl:attribute>

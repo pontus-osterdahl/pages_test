@@ -35,9 +35,6 @@ li a {
   margin: auto;
 } 
 
-/*body {
-  background-color: #9BB2CE;
-}*/
 .hide {
     display: none;
   }
@@ -87,11 +84,6 @@ li a {
   .popup {
     position: relative;
     display: inline-block;
-    /**cursor: pointer;*/
-  }
-
-  .popup .show {
-    visibility: visible;
   }
 
 
@@ -154,8 +146,12 @@ li a {
     background-color: #ACDEE6;
   }
 
+  .display-none {
+    display: none;
+  }
+
   .flex-container {
-  display: none;
+  /**display: none;*/
   flex-direction: column;
   flex-shrink: 0;
   flex-grow: 1;

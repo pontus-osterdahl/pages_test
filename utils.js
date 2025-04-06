@@ -16,11 +16,13 @@ for(i = 0; i < tests.length; i++) {
     var id = this.getAttribute('value');
     const container = document.getElementById(id);
 
-    if (container.style.display == "none") {
+    container.classList.toggle("display-none");
+
+/**     if (container.style.display == "none") {
         container.style.display = "flex";
     } else {
         container.style.display = "none";
-    }
+    } */
 }); 
       
 }
