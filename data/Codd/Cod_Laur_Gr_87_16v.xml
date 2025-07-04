@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="tei_ms_saws.rng" type="xml"?>
+<?oxygen SCHSchema="saws_relations.sch"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Cod_Laur_Gr_86_8">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Codex Laurentianus Graecus 87 16</title>
+            </titleStmt>
+            <publicationStmt><p>Sharing Ancient Wisdoms</p></publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italy</country>
+                        <settlement>Florence</settlement>
+                        <repository>Biblioteca Medicea Laurenziana</repository>
+                        <idno>87 16</idno>
+                    </msIdentifier>
+                </msDesc>
+                    <!--<msContents>
+                        <msItemStruct>
+                            <locus from="1r" to="14v">1r-13v</locus>
+                            <author>Aristoteles</author>
+                            <title>De Mundo</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="14r" to="93v">14r-93v</locus>
+                            <author>Asclepiades Bithynicus medicus</author>
+                            <title>Praecepta salubria</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="94r" to="97v">94r-97v</locus>
+                            <author>Agapetus Diaconus</author>
+                            <title>Capita Paraenetica ad Imperatorem Iustinianum</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="98r" to="129r">98r-129r</locus>
+                            <author>Isidorus Pelusiota</author>
+                            <title>Epistolae</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="129v" to="192r">129v-192r</locus>
+                            <author>Libanius</author>
+                            <title>Epistolae</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="192v" to="233r">192v-233r</locus>
+                            <author>Synesius Cyrenaeus</author>
+                            <title>Epistolae</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="233v" to="237r">233v-237r</locus>
+                            <author>Anonymus</author>
+                            <title>Paroemiae, seu Proverbia Iuxta Alphabetum</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="237v" to="238v">237v-238v</locus>
+                            <author>Anonymus</author>
+                            <title>Proverbia ex Platonis Operibus Excerpta</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="239r" to="249v">239r-249v</locus>
+                            <author>Gregorius Cyprius</author>
+                            <title>Epistolae</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="250r" to="261r">250r-261r</locus>
+                            <author>Anonymus</author>
+                            <title>Apophthegmata Sapientium apud Graecos</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="261v" to="264v">261v-264v</locus>
+                            <author>Brutus Pergamenus</author>
+                            <title>Epistolae</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="265r" to="270r">265r-270r</locus>
+                            <author>Anonymus</author>
+                            <title>Epistolarum Collectio</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="270v" to="291r">270v-291r</locus>
+                            <author>Proclus</author>
+                            <title>Elementa Theologica</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="291v" to="299v">291v-299v</locus>
+                            <author>Isaac Argyrus</author>
+                            <title>Methodus Rationabilior Solarium et Lunarium Cyclorum, et Eorum Quae ex His Consequuntur</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="300r" to="303r">300r-303r</locus>
+                            <author>Isaac Argyrus</author>
+                            <title>De Inventione Quadraticorum Laterum Irrationabilium Numerorum Quadratorum</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="303v" to="303v">303v</locus>
+                            <author>Ioannes Eugenicus Nomophylax</author>
+                            <title>In Imaginem Magni Chrysostomi Carmen Iambicum</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="304r" to="304r">304r</locus>
+                            <author>Ioannes Eugenicus Nomophylax</author>
+                            <title>Epitaphion Palaeologinae</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="304r" to="304r">304r</locus>
+                            <author>Ioannes Eugenicus Nomophylax</author>
+                            <title>In Panagiarium Tetrastichon Iambicum</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="304v" to="304v">304v</locus>
+                            <author>Ioannes Eugenicus Nomophylax</author>
+                            <title>Praefatio Nomophylacis in Aethiopica Heliodori</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>                        
+                        <msItemStruct>
+                            <locus from="305r" to="308v">305r-308v</locus>
+                            <author>Anonymus</author>
+                            <title>Excerpta Theologica de Spiritu Sancto</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="309r" to="313r">309r-313r</locus>
+                            <author>Anonymus</author>
+                            <title>Sententiae Excerptae e Variis ac Praesertim Ex Oratione Isocratis ad Demonicum</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="313v" to="317r">313v-317r</locus>
+                            <author>Anonymus</author>
+                            <title>Apophthegmata seu Sententiae Septem Sapientum et Aliorum Clarorum Virorum</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="317v" to="317v">317v</locus>
+                            <author>Anonymus</author>
+                            <title>Epigrammata Duo Iambica, Primum Tristichon, Alterum vero Hexastichon</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="317v" to="317v">317v</locus>
+                            <author>Anonymus</author>
+                            <title>Mensium Duodecim Nomnia Apud Athenienses</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="318r" to="325r">318r-325r</locus>
+                            <author>Anonymus</author>
+                            <title>Excerpta Quaedam de Rebus Diversi Argumenti</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="325v" to="329r">325v-329r</locus>
+                            <author>Diogenes Cynicus</author>
+                            <title>Epistolae</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                        <msItemStruct>
+                            <locus from="329v" to="329v">329v</locus>
+                            <author>Anonymus</author>
+                            <title>Excerptum Quoddam Historicum de Serpentibus Alatis</title>
+                            <note/>
+                            <textLang>Greek</textLang>
+                        </msItemStruct>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Paper</support>
+                                <extent>
+                                    <dimensions>
+                                        <height/>
+                                        <width/>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" ruledLines="33">One Column of ca 33 Lines</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>Probably created in the <origDate notBefore="1400" notAfter="1500">15th century</origDate> at an <origPlace>unkown</origPlace> location</origin>
+                        <provenance/>
+                    </history>
+                    <additional>
+                        <listBibl>
+                            <bibl><ptr target="bandini1770"/>, <biblScope>298-326</biblScope></bibl>
+                            <bibl><ptr target="sternbach1893a"/>, <biblScope>29-52</biblScope></bibl>
+                        </listBibl>
+                    </additional>
+                </msDesc>-->
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text xml:id="ApGun_Laur">
+                <front>
+                    <titlePage type="cover">
+                        <docTitle>
+                            <titlePart>Apophthegmata gynaikon (Laurentiana)</titlePart>
+                        </docTitle>                        
+                    </titlePage>
+                </front>
+                    <body>
+                        <div xml:id="Part01">
+                            <div xml:id="A01">
+                                <ab xml:id="AttikeGune01">
+                                    <seg type="contentItem" xml:id="ApGun_Laur_Part01_A01_AttikeGune01_ci1">
+                                        <choice>
+                                            <reg>(ApGun 1) Ἀττικὴ γυνὴ εἰπόντος τινὸς ὡς καλός ἐστιν αὐτῇ ὁ πῆχυς εἶπεν· ἀλλ’ οὐ δημόσιος.</reg>
+                                        </choice>
+                                    </seg>
+                                    <seg type="contentItem" xml:id="ApGun_Laur_Part01_A01_AttikeGune01_ci2">
+                                        <choice>
+                                            <reg>(ApGun 2) Ἀττικὴ γυνὴ ἰδοὺσα ἐπὶ θυρῶν γαμεῖν μέλλοντος· Ἡρακλῆς ἐνθάδε κατοίκει, μήδεν εἰσίτω κακόν, εἶπεν· νῦν οὔν ἡ γυνὴ μὴ εἰσέλθῃ.</reg>  
+                                        </choice>
+                                    </seg>
+                                </ab>
+                                <ab xml:id="AttikeGraus01">
+                                    <seg type="contentItem" xml:id="ApGun_Laur_Part01_A01_AttikeGraus01_ci1">
+                                        <choice>
+                                           <reg>(ApGun 3) Ἀττικὴ γραὺς ἐρωτηθεῖσα ἐν συμποσίῳ εἰ θνήτος ὁ Διονύσιος, ἰδοῦσα κλεπτόμενον οἶνον εἶιπε· ναὶ θνητὸς· εἶδον γὰρ αὐτὸν ἐκφερόμενον.</reg>
+                                        </choice>
+                                    </seg>
+                                    <seg type="contentItem" xml:id="ApGun_Laur_Part01_A01_AttikeGraus01_ci2">
+                                        <choice>
+                                            <reg>(ApGun 4) Ἀττικὴ γραὺς ἰδοῦσα νεανίσκον οἶνον ἐκχέοντα εἶπεν· Οἰνέα Πηλέα ἐποίησας.</reg>
+                                        </choice>
+                                    </seg>
+                                </ab>
+                                <ab xml:id="AttikeHetaira01">
+                                    <seg type="contentItem" xml:id="ApGun_Laur_Part01_A01_AttikeEtaira01_ci1">
+                                        <choice>
+                                            <reg>(ApGun 5) Ἀττικὴ ἑταίρα προσαγγελομένου <persName key="Philippus"><name>Φιλίππου</name></persName> <placeName key="https://pleiades.stoa.org/places/579885">ταῖς Ἀθήναις</placeName> προσβάλειν ἐξέλθουσα ἐμίγη αὐτῷ καὶ παρεκάλει ὑποστρέφειν τοῦ δ’ εἴποντος· ὤμοσα εἰς <placeName key="https://pleiades.stoa.org/places/579888">τὴν Ἀττικὴν</placeName> ἐμβάλειν καὶ οὐκ ἄν ὑποστρέφω εἰ μὴ τοῦτο ποιήσω, ἐκείνη· τοῦ λοίπου, ἔφη, ὑπόστρεφε ἰδοῦ ἐμβέβληκας <placeName key="https://pleiades.stoa.org/places/579888">τὴν Ἁττικὴν</placeName>. ὁ δὲ θαύμασας αὐτὴν ὑπέστρεψεν.</reg>
+                                        </choice>
+                                    </seg>
+                                </ab>
+                                <ab xml:id="Aspasia01">
+                                    <seg type="contentItem" xml:id="ApGun_Laur_Part01_A01_Aspasia01_ci1">
+                                        <choice>
+                                            <reg>(ApGun 6) <persName key="Aspasia"><name>Ἀσπασία</name></persName> ἐρωθητεῖσα διὰ τί κατὰ μὲν τῶν γυναικῶν θάνατός ἐστιν ἔαν ἄλλῳ πλησιάσωσι, κατὰ δὲ τῶν ἄνδρων οὔ, εἶπεν ὅτι ἄνδρες ἦσαν οἰ ταῦτα νομοθετήσαντες, οὐ γυναῖκες.</reg>
+                                        </choice>
+                                    </seg>
+                                </ab>
+                                <ab xml:id="Kleopatra01">
+                                    <seg type="contentItem" xml:id="ApGun_Laur_Part01_A01_Kleopatra01_ci1">
+                                        <choice>
+                                            <reg>(ApGun 7) Κλεοπάτρα, κρινομένου τινὸς ἐπ’ αὐτῆς ὡς φθείραντος μειράκιον, ὅ διὰ τὴν αἰσχύνην διεχρήσατο ἑαυτοῦ, ἔφη· ὅπου ὁ παθὼν θάνατον αντιλλάξατο, τὶ τὸν δράσοντα ἄξιον παθεῖν;</reg>
+                                        </choice>
+                                    </seg>
+                                </ab>
+                                <ab xml:id="LakainaGune01">
+                                    <seg type="contentItem" xml:id="ApGun_Laur_Part01_A01_LakainaGune01_ci1">
+                                        <choice>
+                                            <reg>(ApGun 8) Λακαῖνα γυνὴ σεμνυνομένου τοῦ υἱοῦ αὐτὴς ὅτι μόνος ἐκ παρατάξεως ἐσώθη τὼν λοίπων ἀποθανόντων, ἔφη· οὐκ αἰσχύνῃ μόνος ζῶν;</reg>
+                                        </choice>
+                                    </seg> 
+                                </ab>
+                                <ab xml:id="SamiaGune01">
+                                    <seg type="contentItem" xml:id="ApGun_Laur_Part01_A01_SamiaGune01_ci1">
+                                        <choice>
+                                            <reg>(ApGun 9) &lt;Σαμ&gt;ία γυνὴ πότην ἔχουσα ἄνδρα ἔφη· οὐ χρὴ παννύχιον πίνειν βουληφόρον ἄνδρα· ὁ δὲ, ἀπόλοιτο ὁ γράμματά σε δίδαξας, εφη, ἡ δὲ· ὁ σὲ μὴ δίδαξας.</reg>
+                                        </choice>
+                                    </seg>
+                                </ab>
+                                <ab xml:id="Phryne01">
+                                
+                                    <seg type="contentItem" xml:id="ApG_Laur_Part01_A01_Phryne01_ci1">
+                                        <choice>
+                                            <reg> (ApGun 10) Φρύνη ἡ ἑταίρα νέου τινὸς ἄγρον πεπράκοτος καὶ δι’ ἀρρώσιαν χλώρου ὄντος, νεάνισκε, ἔφη, τὶ χλῶρον εἶ; μὴ τὴν γῆν εσθίεις;</reg>                                    
+                                        </choice>
+                                    </seg>
+                            </ab> 
+                            </div>
+                        </div>
+                        <!--<div xml:id="Relations01">
+                            <ab xml:id="ApG_Laur01">
+                                
+                            </ab>
+                            <ab xml:id="ApG_Par01">
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci1" passive="ApG_Par_Part01_A01_Alexander01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci2" passive="ApG_Par_Part01_A01_Alexander01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci3" passive="ApG_Par_Part01_A01_Alexander01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci4" passive="ApG_Par_Part01_A01_Alexander01_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci5" passive="ApG_Par_Part01_A01_Alexander01_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci6" passive="ApG_Par_Part01_A01_Alexander01_ci6" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci7" passive="ApG_Par_Part01_A01_Alexander01_ci7" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anaxagoras01_ci1" passive="ApG_Par_Part01_A01_Anaxagoras01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Antigonus01_ci1" passive="ApG_Par_Part01_A01_Antigonus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anacharsis01_ci3" passive="ApG_Par_Part01_A01_Anacharsis01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci1" passive="ApG_Par_Part01_A01_Aristoteles01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci2" passive="ApG_Par_Part01_A01_Aristoteles01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci3" passive="ApG_Par_Part01_A01_Aristoteles01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci4" passive="ApG_Par_Part01_A01_Aristoteles01_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci5" passive="ApG_Par_Part01_A01_Aristoteles01_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci6" passive="ApG_Par_Part01_A01_Aristoteles01_ci6" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci7" passive="ApG_Par_Part01_A01_Aristoteles01_ci7" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristides01_ci1" passive="ApG_Par_Part01_A01_Aristides01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aesopus01_ci1" passive="ApG_Par_Part01_A01_Aesopus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aesopus01_ci2" passive="ApG_Par_Part01_A01_Aesopus01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aesopus01_ci3" passive="ApG_Par_Part01_A01_Aesopus01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aesopus01_ci4" passive="ApG_Par_Part01_A01_Aesopus01_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aeschines01_ci1" passive="ApG_Par_Part01_A01_Aeschines01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristippus01_ci1" passive="ApG_Par_Part01_A01_Aristippus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristippus01_ci2" passive="ApG_Par_Part01_A01_Aristippus01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristippus01_ci3" passive="ApG_Par_Part01_A01_Aristippus01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristippus01_ci4" passive="ApG_Par_Part01_A01_Aristippus01_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_B01_Bias01_ci1" passive="ApG_Par_Part01_B01_Bias01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_B01_Bias01_ci2" passive="ApG_Par_Part01_B01_Bias01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci1" passive="ApG_Par_Part01_D01_Diogenes01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci2" passive="ApG_Par_Part01_D01_Diogenes01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci3" passive="ApG_Par_Part01_D01_Diogenes01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci4" passive="ApG_Par_Part01_D01_Diogenes01_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci5" passive="ApG_Par_Part01_D01_Diogenes01_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci6" passive="ApG_Par_Part01_D01_Diogenes01_ci6" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci7" passive="ApG_Par_Part01_D01_Diogenes01_ci7" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci8" passive="ApG_Par_Part01_D01_Diogenes01_ci8" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci9" passive="ApG_Par_Part01_D01_Diogenes01_ci9" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci10" passive="ApG_Par_Part01_D01_Diogenes01_ci10" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci11" passive="ApG_Par_Part01_D01_Diogenes01_ci11" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Demosthenes01_ci1" passive="ApG_Par_Part01_D01_Demosthenes01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Demosthenes01_ci2" passive="ApG_Par_Part01_D01_Demosthenes01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Demosthenes01_ci3" passive="ApG_Par_Part01_D01_Demosthenes01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Demosthenes01_ci4" passive="ApG_Par_Part01_D01_Demosthenes01_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci1" passive="ApG_Par_Part01_D01_Democritus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci2" passive="ApG_Par_Part01_D01_Democritus01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci3" passive="ApG_Par_Part01_D01_Democritus01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci4" passive="ApG_Par_Part01_D01_Democritus01_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci5" passive="ApG_Par_Part01_D01_Democritus01_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_E01_Eratosthenes01_ci1" passive="ApG_Par_Part01_E01_Eratosthenes01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Z01_Zeno01_ci1" passive="ApG_Par_Part01_Z01_Zeno01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Z01_Zeno01_ci2" passive="ApG_Par_Part01_Z01_Zeno01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Z01_Zeno01_ci3" passive="ApG_Par_Part01_Z01_Zeno01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Z01_Zeno01_ci4" passive="ApG_Par_Part01_Z01_Zeno01_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Z01_Seleucus01_ci1" passive="ApG_Par_Part01_Z01_Zaleucus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Theophrastus01_ci1" passive="ApG_Par_Part01_Th01_Theophrastus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Theophrastus01_ci2" passive="ApG_Par_Part01_Th01_Theophrastus01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Theocritus01_ci1" passive="ApG_Par_Part01_Th01_Theocritus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci1" passive="ApG_Par_Part01_Th01_Thales01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="ApG_Par_Part01_Th01_Thales01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thearidas01_ci1" passive="ApG_Par_Part01_Th01_Thearidas01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Theophrastus02_ci1" passive="ApG_Par_Part01_Th01_Theophrastus02_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Theophrastus02_ci2" passive="ApG_Par_Part01_Th01_Theophrastus02_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_I01_Isocrates01_ci1" passive="ApG_Par_Part01_I01_Isocrates01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cleanthes01_ci1" passive="ApG_Par_Part01_K01_Cleanthes01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cleanthes01_ci2" passive="ApG_Par_Part01_K01_Cleanthes01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cleostratus01_ci1" passive="ApG_Par_Part01_K01_Cleostratus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Callimachus01_ci1" passive="ApG_Par_Part01_K01_Callimachus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cicero01_ci1" passive="ApG_Par_Part01_K01_Cicero01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_L01_Leonidas01_ci1" passive="ApG_Par_Part01_L01_Leonidas01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_L01_Euripides01_ci1" passive="ApG_Par_Part01_L01_Euripides01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_L01_Lycurgus01_ci1" passive="ApG_Par_Part01_L01_Lycurgus01_ci1" resp="MB"/>                                
+                            </ab>
+                            <ab xml:id="ApG_Vat01">
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci1" passive="ApG_Vat_Part01_A01_Alexander01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci2" passive="ApG_Vat_Part01_A01_Alexander01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci3" passive="ApG_Vat_Part01_A01_Alexander01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci4" passive="ApG_Vat_Part01_A01_Alexander01_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci5" passive="ApG_Vat_Part01_A01_Alexander01_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci6" passive="ApG_Vat_Part01_A01_Alexander01_ci6" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci7" passive="ApG_Vat_Part01_A01_Alexander01_ci7" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anaxagoras01_ci1" passive="ApG_Vat_Part01_A01_Anaxagoras01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Antigonus01_ci1" passive="ApG_Vat_Part01_A01_Antigonus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anacharsis01_ci2" passive="ApG_Vat_Part01_A01_Anacharsis01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anacharsis01_ci3" passive="ApG_Vat_Part01_A01_Anacharsis01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci1" passive="ApG_Vat_Part01_A01_Aristoteles01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci2" passive="ApG_Vat_Part01_A01_Aristoteles01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci4" passive="ApG_Vat_Part01_A01_Aristoteles01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci6" passive="ApG_Vat_Part01_A01_Aristoteles01_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci7" passive="ApG_Vat_Part01_A01_Aristoteles01_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristides01_ci1" passive="ApG_Vat_Part01_A01_Aristides01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aesopus01_ci1" passive="ApG_Vat_Part01_A01_Aesopus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aesopus01_ci2" passive="ApG_Vat_Part01_A01_Aesopus01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aeschines01_ci1" passive="ApG_Vat_Part01_A01_Aeschines01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristippus01_ci1" passive="ApG_Vat_Part01_A01_Aristippus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristippus01_ci2" passive="ApG_Vat_Part01_A01_Aristippus01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_B01_Bias01_ci1" passive="ApG_Vat_Part01_B01_Bias01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci1" passive="ApG_Vat_Part01_D01_Diogenes01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci2" passive="ApG_Vat_Part01_D01_Diogenes01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci3" passive="ApG_Vat_Part01_D01_Diogenes01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci4" passive="ApG_Vat_Part01_D01_Diogenes01_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci5" passive="ApG_Vat_Part01_D01_Diogenes01_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci6" passive="ApG_Vat_Part01_D01_Diogenes01_ci6" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci8" passive="ApG_Vat_Part01_D01_Diogenes01_ci7" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci9" passive="ApG_Vat_Part01_D01_Diogenes01_ci8" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci10" passive="ApG_Vat_Part01_D01_Diogenes01_ci9" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Demosthenes01_ci1" passive="ApG_Vat_Part01_D01_Demosthenes01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Demosthenes01_ci2" passive="ApG_Vat_Part01_D01_Demosthenes01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Demosthenes01_ci4" passive="ApG_Vat_Part01_D01_Demosthenes01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci1" passive="ApG_Vat_Part01_D01_Democritus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci2" passive="ApG_Vat_Part01_D01_Democritus01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci3" passive="ApG_Vat_Part01_D01_Democritus01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_E01_Eratosthenes01_ci1" passive="ApG_Vat_Part01_E01_Eratosthenes01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Z01_Zeno01_ci1" passive="ApG_Vat_Part01_Z01_Zeno01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Z01_Zeno01_ci3" passive="ApG_Vat_Part01_Z01_Zeno01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Z01_Zeno01_ci4" passive="ApG_Vat_Part01_Z01_Zeno01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Z01_Seleucus01_ci1" passive="ApG_Vat_Part01_Z01_Zaleucus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Theophrastus01_ci1" passive="ApG_Vat_Part01_Th01_Theophrastus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Theophrastus01_ci2" passive="ApG_Vat_Part01_Th01_Theophrastus01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Theocritus01_ci1" passive="ApG_Vat_Part01_Th01_Theocritus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="ApG_Vat_Part01_Th01_Thales01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thearidas01_ci1" passive="ApG_Vat_Part01_Th01_Thearidas01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Theophrastus02_ci2" passive="ApG_Vat_Part01_Th01_Theophrastus02_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_I01_Isocrates01_ci1" passive="ApG_Vat_Part01_I01_Isocrates01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cleanthes01_ci1" passive="ApG_Vat_Part01_K01_Cleanthes01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cleostratus01_ci1" passive="ApG_Vat_Part01_K01_Cleostratus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Callimachus01_ci1" passive="ApG_Vat_Part01_K01_Callimachus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cicero01_ci1" passive="ApG_Vat_Part01_K01_Cicero01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_L01_Leonidas01_ci1" passive="ApG_Vat_Part01_K01_Leonidas01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_L01_Euripides01_ci1" passive="ApG_Vat_Part01_L01_Euripides01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_L01_Lycurgus01_ci1" passive="ApG_Vat_Part01_L01_Lycurgus01_ci1" resp="MB"/>
+                            </ab>
+                            <ab xml:id="AVI01">
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci1" passive="AVI_Part02_nn02_Notes01_ci59" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Demosthenes01_ci4" passive="AVI_Part01_D01_Democrates01_ci8" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci3" passive="AVI_Part01_A01_Aristoteles01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Z01_Zeno01_ci2" passive="AVI_Part01_Z01_Zeno01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Theophrastus01_ci1" passive="AVI_Part01_A01_Aristippus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thearidas01_ci1" passive="AVI_Part01_Th01_Thearidas01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cicero01_ci1" passive="AVI_Part01_K01_Cicero01_ci1" resp="MB"/>
+                            </ab>
+                            <ab xml:id="AVII01">
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci5" passive="AVII_Part04_A03_Alexander01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anaxagoras01_ci1" passive="AVII_Part04_A03_Anaximenes01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristides01_ci1" passive="AVII_Part04_A03_Aristides01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci2" passive="AVII_Part04_Th02_Theophrastus02_ci10" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci4" passive="AVII_Part04_A03_Aristoteles03_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci1" passive="AVII_Part04_Th02_Thales01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="AVII_Part04_Th02_Thales01_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="AVII_Part04_Th02_Thales01_ci6" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="AVII_Part04_Th02_Thales01_ci7" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_I01_Isocrates01_ci1" passive="AVII_Part04_Th03_Thucydides01_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cleanthes01_ci2" passive="AVII_Part04_K03_Cleobulus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cicero01_ci1" passive="AVII_Part04_K03_Cicero02_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_L01_Leonidas01_ci1" passive="AVII_Part04_L03_Leonidas01_ci2" resp="MB"/>
+                            </ab>
+                            <ab xml:id="CPVI_Dig01">
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anaxagoras01_ci1" passive="CPVI_Dig_Part02_B01_Bias02_ci9" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Antigonus01_ci1" passive="CPVI_Dig_Part02_A01_Antigonus02_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anacharsis01_ci2" passive="CPVI_Dig_Part02_A01_Antagoras01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aesopus01_ci1" passive="CPVI_Dig_Part02_A01_Aesopus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci7" passive="CPVI_Dig_Part02_D01_HoAutos02_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci8" passive="CPVI_Dig_Part02_D01_HoAutos02_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Demosthenes01_ci4" passive="CPVI_Dig_Part02_Z01_HoAutos03_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci5" passive="CPVI_Dig_Part02_E01_Empedocles01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Z01_Zeno01_ci1" passive="CPVI_Dig_Part02_Z01_Zeno02_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Z01_Zeno01_ci4" passive="CPVI_Dig_Part02_Z01_Zeno02_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Theophrastus01_ci1" passive="CPVI_Dig_Part02_Th01_Theophrastus02_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci1" passive="CPVI_Dig_Part02_Th01_Thales01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="CPVI_Dig_Part02_Th01_Thales01_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="CPVI_Dig_Part02_Th01_Thales01_ci6" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="CPVI_Dig_Part02_Th01_Thales01_ci7" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="CPVI_Dig_Part02_Th01_Thales01_ci8" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="CPVI_Dig_Part02_I01_Hiero02_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="CPVI_Dig_Part02_I01_Hiero02_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_I01_Isocrates01_ci1" passive="CPVI_Dig_Part02_D02_nn69_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cicero01_ci1" passive="CPVI_Dig_Part02_K01_Cicero01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_L01_Leonidas01_ci1" passive="CPVI_Dig_Part02_L01_Leonidas01_ci2" resp="MB"/>
+                            </ab>
+                            <ab xml:id="CPVI_Par01">
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anaxagoras01_ci1" passive="CPVI_Par_Part02_B01_Bias02_ci8" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Antigonus01_ci1" passive="CPVI_Par_Part02_A01_Antigonus02_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anacharsis01_ci2" passive="CPVI_Par_Part02_A01_Antagoras01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aesopus01_ci1" passive="CPVI_Par_Part02_A01_Aesopus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci7" passive="CPVI_Par_Part02_D01_HoAutos02_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci8" passive="CPVI_Par_Part02_D01_HoAutos02_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Demosthenes01_ci4" passive="CPVI_Par_Part02_Z01_HoAutos03_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci5" passive="CPVI_Par_Part02_E01_Empedocles01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Z01_Zeno01_ci1" passive="CPVI_Par_Part02_Z01_Zeno02_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Z01_Zeno01_ci4" passive="CPVI_Par_Part02_Z01_Zeno02_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Theophrastus01_ci1" passive="CPVI_Par_Part02_Th01_Theophrastus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci1" passive="CPVI_Par_Part02_Th01_Thales01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="CPVI_Par_Part02_Th01_Thales01_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="CPVI_Par_Part02_Th01_Thales01_ci6" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="CPVI_Par_Part02_Th01_Thales01_ci7" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="CPVI_Par_Part02_I01_Hiero02_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="CPVI_Par_Part02_I01_Hiero02_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_I01_Isocrates01_ci1" passive="CPVI_Par_Part02_D02_nn68_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cicero01_ci1" passive="CPVI_Par_Part02_K01_Cicero01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_L01_Leonidas01_ci1" passive="CPVI_Par_Part02_L01_Leonidas01_ci2" resp="MB"/>
+                            </ab>
+                            <ab xml:id="FL01">
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci1" passive="FL_Part02_A01_Alexander01_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci1" passive="FL_Part02_A01_Alexander01_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anacharsis01_ci2" passive="FL_Part02_A01_Anacharsis01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci1" passive="FL__Part01_Gnomes01_ci19" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci3" passive="FL__Part01_Gnomes02_ci23" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aesopus01_ci1" passive="FL_Part02_A01_Aesopus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci2" passive="FL_Part02_D01_Diogenes01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci3" passive="FL_Part02_D01_Diogenes01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci6" passive="FL_Part02_D01_Diogenes01_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci7" passive="FL_Part02_D01_Diogenes01_ci6" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci8" passive="FL_Part02_D01_Diogenes01_ci7" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci1" passive="FL_Part02_D01_Demetrius01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci2" passive="FL__Part01_Gnomes03_ci15" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci2" passive="FL_Part02_D01_Democritus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci4" passive="FL__Part01_Gnomes02_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Z01_Zeno01_ci1" passive="FL_Part02_Z01_Zeno01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Theophrastus01_ci2" passive="FL_Part02_Th01_Theophrastus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="FL_Part02_Th01_Theocritus01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cleanthes01_ci1" passive="FL__Part01_Gnomes05_ci34" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cleanthes01_ci2" passive="FL_Part02_K01_Cleobulus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Callimachus01_ci1" passive="FL_Part02_K01_Callimachus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_L01_Leonidas01_ci1" passive="FL_Part02_L01_Leonidas01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_L01_Euripides01_ci1" passive="FL_Part02_L01_Euripides01_ci1" resp="MB"/>
+                            </ab>
+                            <ab xml:id="FM01">
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci1" passive="FM_Part02_A01_Alexander01_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anacharsis01_ci2" passive="FM_Part02_A01_Anacharsis01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci1" passive="FM__Part01_Gnomes01_ci19" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci3" passive="FM__Part01_Gnomes02_ci24" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aesopus01_ci1" passive="FM_Part02_A01_Aesopus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci2" passive="FM_Part02_D01_Diogenes01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci3" passive="FM_Part02_D01_Diogenes01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci6" passive="FM_Part02_D01_Diogenes01_ci6" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci7" passive="FM_Part02_D01_Diogenes01_ci7" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci8" passive="FM_Part02_D01_Diogenes01_ci8" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci1" passive="FM_Part02_D01_Demetrius01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci2" passive="FM__Part01_Gnomes03_ci18" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci2" passive="FM_Part02_D01_Democritus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci4" passive="FM__Part01_Gnomes02_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Z01_Zeno01_ci1" passive="FM_Part02_Z01_Zeno01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Theophrastus01_ci2" passive="FM_Part02_Th01_Theophrastus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="FM_Part02_Th01_Theocritus01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cleanthes01_ci1" passive="FM__Part01_Gnomes05_ci35" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cleanthes01_ci2" passive="FM_Part02_K01_Cleobulus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Callimachus01_ci1" passive="FM_Part02_K01_Callimachus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_L01_Leonidas01_ci1" passive="FM_Part02_L01_Leonidas01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_L01_Euripides01_ci1" passive="FM_Part02_L01_Euripides01_ci1" resp="MB"/>
+                            </ab>
+                            <ab xml:id="GV01">
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci1" passive="GV_Part01_A01_Alexander01_ci30" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci3" passive="GV_Part01_A01_Alexander01_ci15" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci4" passive="GV_Part01_A01_Alexander01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci5" passive="GV_Part01_A01_Alexander01_ci9" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci6" passive="GV_Part01_A01_Alexander01_ci13" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci7" passive="GV_Part01_A01_Alexander01_ci18" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anaxagoras01_ci1" passive="GV_Part01_A01_Anaximenes01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anaxagoras01_ci1" passive="GV_Part01_A01_Anaxagoras02_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Antigonus01_ci1" passive="GV_Part01_A01_Antigonus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anacharsis01_ci2" passive="GV_Part01_A01_Anacharsis02_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anacharsis01_ci3" passive="GV_Part01_A01_Anacharsis02_ci7" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci1" passive="GV_Part01_A01_Aristoteles01_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci2" passive="GV_Part01_A01_Aristoteles02_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci3" passive="GV_Part01_A01_Aristoteles02_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci3" passive="GV_Part01_D01_Demosthenes01_ci10" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci4" passive="GV_Part01_A01_Aristoteles02_ci6" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci5" passive="GV_Part01_A01_Aristoteles02_ci7" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci6" passive="GV_Part01_A01_Aristoteles02_ci10" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci7" passive="GV_Part01_A01_Aristoteles01_ci6" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristides01_ci1" passive="GV_Part01_A01_Aristides01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aesopus01_ci2" passive="GV_Part01_A01_Aesopus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aesopus01_ci3" passive="GV_Part01_A01_Antisthenes01_ci6" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aesopus01_ci4" passive="GV_Part01_A01_Antisthenes01_ci8" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aeschines01_ci1" passive="GV_Part01_A01_Aeschines01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristippus01_ci1" passive="GV_Part01_A01_Aristippus01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristippus01_ci2" passive="GV_Part01_A01_Aristippus01_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristippus01_ci3" passive="GV_Part01_A01_Aristippus01_ci8" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristippus01_ci4" passive="GV_Part01_A01_Aristippus01_ci14" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_B01_Bias01_ci2" passive="GV_Part01_B01_Bias01_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci1" passive="GV_Part01_D01_Diogenes01_ci30" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci2" passive="GV_Part01_D01_Diogenes01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci3" passive="GV_Part01_D01_Diogenes01_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci4" passive="GV_Part01_D01_Diogenes01_ci11" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci5" passive="GV_Part01_D01_Diogenes01_ci12" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci5" passive="GV_Part01_P02_Plato01_ci20" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci6" passive="GV_Part01_D01_Diogenes01_ci14" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci7" passive="GV_Part01_D01_Diogenes01_ci16" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci8" passive="GV_Part01_D01_Diogenes01_ci20" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci9" passive="GV_Part01_D01_Diogenes01_ci22" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci10" passive="GV_Part01_D01_Diogenes01_ci25" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Demosthenes01_ci1" passive="GV_Part01_A01_Aristippus01_ci17" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Demosthenes01_ci2" passive="GV_Part01_D01_Demosthenes01_ci19" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Demosthenes01_ci3" passive="GV_Part01_D01_Demetrius01_ci6" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Demosthenes01_ci4" passive="GV_Part01_D01_Demetrius01_ci8" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci1" passive="GV_Part01_D01_Democritus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci2" passive="GV_Part01_A01_Anacharsis01_ci6" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci2" passive="GV_Part01_B01_Bion01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci2" passive="GV_Part01_D01_Democritus01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci2" passive="GV_Part01_Th01_Theophrastus01_ci13" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci4" passive="GV_Part01_A01_Aristoteles01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci5" passive="GV_Part01_E01_Euripides01_ci7" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_E01_Eratosthenes01_ci1" passive="GV_Part01_E01_Eratosthenes01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Z01_Zeno01_ci1" passive="GV_Part01_Z01_Zeno01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Z01_Zeno01_ci2" passive="GV_Part01_Z01_Zeno01_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Z01_Zeno01_ci3" passive="GV_Part01_Z01_Zeno01_ci6" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Z01_Zeno01_ci4" passive="GV_Part01_Z01_Zeno01_ci10" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Z01_Seleucus01_ci1" passive="GV_Part01_Z01_Zaleucus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Theophrastus01_ci1" passive="GV_Part01_A01_Aristippus01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Theophrastus01_ci2" passive="GV_Part01_E01_Epaminondas01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Theocritus01_ci1" passive="GV_Part01_A01_Antisthenes01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci1" passive="GV_Part01_Th01_Thales01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="GV_Part01_Th01_Thales01_ci10" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="GV_Part01_Th01_Thales01_ci11" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="GV_Part01_Th01_Thales01_ci12" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="GV_Part01_Th01_Thales01_ci13" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="GV_Part01_Th01_Thales01_ci14" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="GV_Part01_Th01_Thales01_ci15" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="GV_Part01_Th01_Thales01_ci16" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="GV_Part01_Th01_Thales01_ci17" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="GV_Part01_P02_Pittacus01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thearidas01_ci1" passive="GV_Part01_Th01_Thearidas01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Theophrastus02_ci1" passive="GV_Part01_Th01_Theophrastus01_ci7" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Theophrastus02_ci2" passive="GV_Part01_Th01_Theophrastus01_ci8" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_I01_Isocrates01_ci1" passive="GV_Part01_I01_Isocrates01_ci9" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cleanthes01_ci2" passive="GV_Part01_K01_Cleobulus_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cleostratus01_ci1" passive="GV_Part01_K01_Cleostratus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cicero01_ci1" passive="GV_Part01_K01_Cicero01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_L01_Leonidas01_ci1" passive="GV_Part01_L01_Leonidas01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_L01_Lycurgus01_ci1" passive="GV_Part01_L01_Lycurgus01_ci1" resp="MB"/>
+                            </ab>
+                            <ab xml:id="sawsFB01">
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anacharsis01_ci2" passive="sawsFB_Part01_D01_Diogenes01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci1" passive="sawsFB__Part02_Gnomes01_ci10" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci2" passive="sawsFB_Part01_A01_nn01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci3" passive="sawsFB__Part02_Gnomes02_ci8" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aesopus01_ci1" passive="sawsFB_Part01_A01_Aesopus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci2" passive="sawsFB_Part01_D01_Diogenes01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci3" passive="sawsFB_Part01_D01_Diogenes02_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci4" passive="sawsFB_Part01_D01_Diogenes02_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci6" passive="sawsFB_Part01_D01_Diogenes02_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci7" passive="sawsFB_Part03_D03_Diogenes03_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci8" passive="sawsFB_Part01_D01_Diogenes02_ci6" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci9" passive="sawsFB_Part01_D01_Diogenes02_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci2" passive="sawsFB_Part01_A01_Anacharsis02_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci3" passive="sawsFB_Part01_A02_Aristoteles01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="sawsFB_Part03_Th02_Theocritus02_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cleanthes01_ci1" passive="sawsFB__Part02_Gnomes03_ci17" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cleostratus01_ci1" passive="sawsFB_Part01_K01_Cleopatrus01_ci1" resp="MB"/>
+                            </ab>
+                            <ab xml:id="sawsFC01">
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci1" passive="sawsFC_Part01_A01_Alexander01_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anacharsis01_ci2" passive="sawsFC_Part01_A01_Anacharsis01_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anacharsis01_ci3" passive="sawsFC_Part01_A01_Anacharsis02_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci1" passive="sawsFC_Part01_A01_Aristoteles02_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci6" passive="sawsFC_Part01_A01_Aristoteles02_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristides01_ci1" passive="sawsFC_Part01_A01_Aristides01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aesopus01_ci1" passive="sawsFC_Part01_A01_Aesopus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci2" passive="sawsFC_Part01_D01_Diogenes01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci3" passive="sawsFC_Part01_D01_Diogenes01_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci6" passive="sawsFC_Part01_D01_Diogenes02_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci7" passive="sawsFC_Part01_D01_Diogenes02_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci8" passive="sawsFC_Part01_D01_Diogenes02_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci2" passive="sawsFC_Part01_A01_Anacharsis01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci1" passive="sawsFC_Part01_D01_Demetrius01_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci2" passive="sawsFC_Part01_D01_Democritus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Z01_Zeno01_ci1" passive="sawsFC_Part01_Z01_Zeno01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Theophrastus01_ci2" passive="sawsFC_Part01_Th01_Theophrastus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci1" passive="sawsFC_Part01_Th01_Thales01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="sawsFC_Part01_Th01_Thales01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cleanthes01_ci2" passive="sawsFC_Part01_K01_Cleobulus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Callimachus01_ci1" passive="sawsFC_Part01_K01_Callimachus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_L01_Leonidas01_ci1" passive="sawsFC_Part01_L01_Leonidas01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_L01_Euripides01_ci1" passive="sawsFC_Part01_L01_Euripides03_ci1" resp="MB"/>
+                            </ab>
+                            <ab xml:id="sawsFN01">
+                                
+                            </ab>
+                            <ab xml:id="sawsFP01">
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci7" passive="sawsFP__Part02_Alexander02_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_L01_Euripides01_ci1" passive="sawsFP__Part02_Alexander05_ci8" resp="MB"/>
+                            </ab>
+                            <ab xml:id="sawsFV01">
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci1" passive="sawsFV_Part03_A04_Alexander02_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci1" passive="sawsFV_Part03_A04_Alexander02_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anaxagoras01_ci1" passive="sawsFV_Part01_A01_Anaxagoras01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Antigonus01_ci1" passive="sawsFV_Part01_A01_Antigonus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anacharsis01_ci2" passive="sawsFV_Part01_D01_Diogenes01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anacharsis01_ci2" passive="sawsFV_Part03_A04_Anacharsis03_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci1" passive="sawsFV__Part02_Gnomes01_ci15" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci2" passive="sawsFV_Part01_A01_nn01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci3" passive="sawsFV__Part02_Gnomes02_ci22" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aesopus01_ci1" passive="sawsFV_Part01_A01_Aesopus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci2" passive="sawsFV_Part01_D01_Diogenes01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci3" passive="sawsFV_Part03_D05_Diogenes06_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci3" passive="sawsFV_Part01_D01_Diogenes02_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci4" passive="sawsFV_Part01_D01_Diogenes03_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci5" passive="sawsFV_Part01_S03_Socrates02_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci6" passive="sawsFV_Part01_D01_Diogenes03_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci6" passive="sawsFV_Part03_D05_Diogenes06_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci7" passive="sawsFV_Part03_D05_Diogenes06_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci8" passive="sawsFV_Part01_D01_Diogenes03_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci9" passive="sawsFV_Part01_D03_Diogenes05_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci1" passive="sawsFV_Part03_D05_Demetrius01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci2" passive="sawsFV_Part03_D05_Democritus03_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci3" passive="sawsFV_Part01_A02_Aristoteles01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci4" passive="sawsFV__Part02_Gnomes02_ci5" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Z01_Zeno01_ci1" passive="sawsFV_Part03_Z02_Zeno02_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Theophrastus01_ci2" passive="sawsFV_Part03_Th02_Theophrastus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="sawsFV_Part03_Th02_Theocritus02_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="sawsFV_Part03_Th02_Theocritus02_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_Th01_Thales01_ci2" passive="sawsFV_Part03_Th02_Theocritus02_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cleanthes01_ci1" passive="sawsFV__Part02_Gnomes05_ci31" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cleanthes01_ci2" passive="sawsFV_Part01_K01_Cleobulus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cleanthes01_ci2" passive="sawsFV_Part03_K03_Cleobulus02_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cleostratus01_ci1" passive="sawsFV_Part01_K01_Cleopatrus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Callimachus01_ci1" passive="sawsFV_Part01_K01_Callimachus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_L01_Leonidas01_ci1" passive="sawsFV_Part03_L01_Leonidas01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_L01_Euripides01_ci1" passive="sawsFV_Part03_L01_Euripides02_ci1" resp="MB"/>
+                            </ab>
+                            <ab xml:id="sawsFVat01">
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anaxagoras01_ci1" passive="sawsFVat_Part01_A01_Anaxagoras01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Antigonus01_ci1" passive="sawsFVat_Part01_A01_Antigonus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anacharsis01_ci2" passive="sawsFVat_Part01_D01_Diogenes01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aesopus01_ci1" passive="sawsFVat_Part01_A01_Aesopus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci2" passive="sawsFVat_Part01_D01_Diogenes01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci3" passive="sawsFVat_Part01_G01_Glycon01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci4" passive="sawsFVat_Part01_D03_Diogenes02_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Diogenes01_ci6" passive="sawsFVat_Part01_D03_Diogenes02_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci2" passive="sawsFVat_Part01_A01_Anacharsis02_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cleanthes01_ci2" passive="sawsFVat_Part01_K01_Cleobulus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_K01_Cleostratus01_ci1" passive="sawsFVat_Part01_K01_Cleopatrus01_ci1" resp="MB"/>
+                            </ab>
+                            <ab xml:id="WA01">
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci1" passive="WA_Part01_A01_Alexander01_ci13" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci2" passive="WA_Part01_A01_Alexander01_ci14" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci3" passive="WA_Part01_A01_Alexander01_ci16" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci4" passive="WA_Part01_A01_Alexander01_ci17" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Alexander01_ci7" passive="WA_Part01_A01_Alexander01_ci31" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anaxagoras01_ci1" passive="WA_Part01_A01_Anaxagoras01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Antigonus01_ci1" passive="WA_Part01_A01_Antigonus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anacharsis01_ci1" passive="WA_Part01_A01_Anacharsis01_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anacharsis01_ci2" passive="WA_Part01_A01_Anacharsis01_ci9" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Anacharsis01_ci3" passive="WA_Part01_A01_Anacharsis01_ci15" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci1" passive="WA_Part01_A01_Aristoteles01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci2" passive="WA_Part01_A01_Aristoteles01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci3" passive="WA_Part01_A01_Aristoteles01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci4" passive="WA_Part01_A01_Aristoteles01_ci6" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci6" passive="WA_Part01_A01_Aristoteles01_ci10" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristoteles01_ci7" passive="WA_Part01_A01_Aristides01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristides01_ci1" passive="WA_Part01_A01_Aristides01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aesopus01_ci1" passive="WA_Part01_A01_Aesopus01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aesopus01_ci2" passive="WA_Part01_A01_Aesopus01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aesopus01_ci3" passive="WA_Part01_A01_Antisthenes01_ci3" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aesopus01_ci4" passive="WA_Part01_A01_Antisthenes01_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aeschines01_ci1" passive="WA_Part01_A01_Aeschines01_ci1" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristippus01_ci1" passive="WA_Part03_A02_Aristippus01_ci2" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristippus01_ci2" passive="WA_Part03_A02_Aristippus01_ci4" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristippus01_ci3" passive="WA_Part03_A02_Aristippus01_ci7" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_A01_Aristippus01_ci4" passive="WA_Part03_A02_Aristippus01_ci13" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Demosthenes01_ci1" passive="WA_Part03_A02_Aristippus01_ci14" resp="MB"/>
+                                <relation ref="saws:isRelatedTo" active="ApG_Laur_Part01_D01_Democritus01_ci2" passive="WA_Part01_A01_Anacharsis01_ci1" resp="MB"/>
+                            </ab>
+                        </div>      -->                  
+                    </body>
+             </text>
+        </group>
+    </text>
+</TEI>
