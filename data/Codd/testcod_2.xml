@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="tei_ms_saws.rng" type="xml"?><?oxygen SCHSchema="saws_relations.sch"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BU.saws01"
-    xml:base="http://www.ancientwisdoms.ac.uk/cts/urn:cts:greekLit:ParGr1168.CPVI_Par.saws01"
-    xmlns:saws="http://purl.org/saws/ontology#"
-    xmlns:sawsCTS="http://www.ancientwisdoms.ac.uk/cts/urn:cts:">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="testcod_2.saws01">
     <teiHeader>
         <titleStmt>
-            <title>Codex BU</title>
+            <title>Codex Test 2</title>
         </titleStmt>
     </teiHeader>
-    <text n="BU" xml:id="BU.saws01"
-        xml:base="BU">
+    <text n="Codex Test 2" xml:id="testcod_2.saws01"
+        xml:base="testcod_2">
         <front xml:id="front">
             <titlePage type="cover">
                 <docTitle>
-                    <titlePart>BU</titlePart>
+                    <titlePart>Codex Test 2</titlePart>
                 </docTitle>
             </titlePage>
         </front>
